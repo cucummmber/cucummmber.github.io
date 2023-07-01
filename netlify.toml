@@ -2,8 +2,8 @@
     publish = "/public"
 
 [build.environment]
-    HUGO_VERSION = "0.100.2"
-    HUGO_THEME = "repo"
+    HUGO_VERSION = "0.133.0"
+    HUGO_THEME = "hugo-theme-stack"
  
 [context.production]
     command = "hugo --gc -b ${URL}"

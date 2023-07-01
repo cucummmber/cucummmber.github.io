@@ -1,23 +1,27 @@
-name: GitHub Pages
+name: github pages # 工作流的名称
 
+# 触发工作流的事件 Event 下面设置的是当 push 到 master 分支后触发
+# 其他的事件还有：pull_request/page_build/release
+# 可参考：https://help.github.com/en/actions/reference/events-that-trigger-workflows
 on:
   push:
     branches:
-      - master # Set a branch to deploy
-  pull_request:
+      - master
 
+# jobs 即工作流中的执行任务
 jobs:
-  deploy:
-    runs-on: ubuntu-20.04
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          submodules: true # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+  build-deploy: # job-id
+    runs-on: ubuntu-20.04 # 容器环境
+    # needs: other-job 如果有依赖其他的 job 可以如此配置
 
-      - name: Cache Hugo resources
+    # 任务步骤集合
+    steps:
+      - name: Checkout # 步骤名称
+        uses: actions/checkout@v3 # 引用可重用的 actions，比如这个就是 GitHub 官方的用于拉取代码的actions `@` 后面可以跟指定的分支或者 release 的版本或者特定的commit
+        with: # 当前 actions 的一些配置
+          submodules: true # 如果项目有依赖 Git 子项目时可以设为 true，拉取的时候会一并拉取下来
+
+      - name: Cache Hugo resources #缓存 resources 文件夹
         uses: actions/cache@v2
         env:
           cache-name: cache-hugo-resources
@@ -26,19 +30,20 @@ jobs:
           key: ${{ env.cache-name }}
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v2 # 一个开源的 actions 用于安装 Hugo
         with:
-          hugo-version: "0.112.2"
-          # 是否启用 hugo extend
-          extended: true
+          hugo-version: "0.112.2" #hugo 版本
+          extended: true # 是否启用 hugo extend
 
       - name: Build
-        run: hugo --minify --gc
+        run: hugo --minify --gc # 一个 step 也可以直接用 run 执行命令。如果有多个命令可以如下使用
+      # run: |
+      # npm ci
+      # npm run build
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/master' }}
+        uses: peaceiris/actions-gh-pages@v3 # 开源 actions 用于部署
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          cname: blog.cucummmber.cn
+          github_token: ${{ secrets.GITHUB_TOKEN}} # GitHub 读写仓库的权限token，自动生成无需关心
+          publish_dir: ./public # 发布 ./public 的内容到默认的 gh-pages 分支
+          cname: blog.cucummmber.cn # 自定义域名，不需要可删掉

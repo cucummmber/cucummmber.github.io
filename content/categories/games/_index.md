@@ -1,6 +1,6 @@
 ---
-title: "Test"
-description: "This is an example category"
+title: "游戏"
+description: "This is an game category"
 slug: "test"
 image: "hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg"
 style:

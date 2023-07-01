@@ -234,8 +234,14 @@
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">hugo server --buildDrafts
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>&lt;img src="https://blog.cucummmber.cn/assets%5ceffect.png"
+&lt;/div>&lt;p>&lt;img src="https://blog.cucummmber.cn/p/hugo-%E6%95%99%E7%A8%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/effect.png"
+width="1817"
+height="1156"
+srcset="https://blog.cucummmber.cn/p/hugo-%E6%95%99%E7%A8%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/effect_huab6a425be0061be5a0fe4960ed97d598_86236_480x0_resize_box_3.png 480w, https://blog.cucummmber.cn/p/hugo-%E6%95%99%E7%A8%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/effect_huab6a425be0061be5a0fe4960ed97d598_86236_1024x0_resize_box_3.png 1024w"
 loading="lazy"
+class="gallery-image"
+data-flex-grow="157"
+data-flex-basis="377px"
 >&lt;/p>
 &lt;p>重新打开文件，将 &lt;code>draft: true&lt;/code> 改为 &lt;code>draft: false&lt;/code> ，保存并再次启动服务。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -423,8 +429,14 @@ loading="lazy"
 >https://github.com/&lt;/a> 创建一个仓库，命名为 ” username.github.io “ 例如：cucummmber.github.io&lt;/p>
 &lt;p>GITHUB_TOKEN 为 Actions 工作时自动创建的一个变量，如果希望 Workflow 能够正常的推送代码，请确保你的 Workflow permissions 有写入权限。&lt;/p>
 &lt;p>在此设置 Workflow 权限，你的仓库 -&amp;gt; Settings -&amp;gt; Actions -&amp;gt; General , 滑动到页面最下方 ，将 Workflow permissions 设置为 Read and write permission 。&lt;/p>
-&lt;p>&lt;img src="https://blog.cucummmber.cn/assets%5cgithub.png"
+&lt;p>&lt;img src="https://blog.cucummmber.cn/p/hugo-%E6%95%99%E7%A8%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/github.png"
+width="1582"
+height="1191"
+srcset="https://blog.cucummmber.cn/p/hugo-%E6%95%99%E7%A8%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/github_huc272519d2546107550ff24638fa7d1c1_185571_480x0_resize_box_3.png 480w, https://blog.cucummmber.cn/p/hugo-%E6%95%99%E7%A8%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/github_huc272519d2546107550ff24638fa7d1c1_185571_1024x0_resize_box_3.png 1024w"
 loading="lazy"
+class="gallery-image"
+data-flex-grow="132"
+data-flex-basis="318px"
 >&lt;/p>
 &lt;p>将项目推送至 github 仓库。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -452,9 +464,15 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>网页打开你的仓库，选择 Settings -&amp;gt; Pages 将 Build and deployment 项设置为 Deploy from branch ，并选择 gh-pages 分支，不然第一次部署无法成功。&lt;/p>
-&lt;p>&lt;img src="https://blog.cucummmber.cn/assets%5cimage-20230701202951748-1688217222554-1.png"
+&lt;p>&lt;img src="https://blog.cucummmber.cn/p/hugo-%E6%95%99%E7%A8%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/image-20230701202951748-1688217222554-1.png"
+width="1405"
+height="863"
+srcset="https://blog.cucummmber.cn/p/hugo-%E6%95%99%E7%A8%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/image-20230701202951748-1688217222554-1_hucb773931cc7d4b3cfc1b93cd7f2610a2_107539_480x0_resize_box_3.png 480w, https://blog.cucummmber.cn/p/hugo-%E6%95%99%E7%A8%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/image-20230701202951748-1688217222554-1_hucb773931cc7d4b3cfc1b93cd7f2610a2_107539_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="image-20230701202951748"
+class="gallery-image"
+data-flex-grow="162"
+data-flex-basis="390px"
 >&lt;/p>
 &lt;p>再次将主分支推送到远程仓库。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -515,8 +533,14 @@ alt="image-20230701202951748"
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">hugo server
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>&lt;img src="https://blog.cucummmber.cn/assets%5cutterances.png"
+&lt;/div>&lt;p>&lt;img src="https://blog.cucummmber.cn/p/hugo-%E6%95%99%E7%A8%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/utterances.png"
+width="1097"
+height="598"
+srcset="https://blog.cucummmber.cn/p/hugo-%E6%95%99%E7%A8%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/utterances_hue2a8baafdce05edc2cf0895848d55bc1_35123_480x0_resize_box_3.png 480w, https://blog.cucummmber.cn/p/hugo-%E6%95%99%E7%A8%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/utterances_hue2a8baafdce05edc2cf0895848d55bc1_35123_1024x0_resize_box_3.png 1024w"
 loading="lazy"
+class="gallery-image"
+data-flex-grow="183"
+data-flex-basis="440px"
 >&lt;/p>
 &lt;p>4.推送&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -535,18 +559,36 @@ loading="lazy"
 &lt;p>地址：https://app.netlify.com/ 直接使用 Github 登录即可。&lt;/p>
 &lt;h4 id="从-github-导入项目">从 GIthub 导入项目&lt;/h4>
 &lt;p>1.选择 Sites - &amp;gt; Add new site -&amp;gt; import an existing project ，从现存项目导入&lt;/p>
-&lt;p>&lt;img src="https://blog.cucummmber.cn/assets%5cimport.png"
+&lt;p>&lt;img src="https://blog.cucummmber.cn/p/hugo-%E6%95%99%E7%A8%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/import.png"
+width="1710"
+height="866"
+srcset="https://blog.cucummmber.cn/p/hugo-%E6%95%99%E7%A8%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/import_hu7d8b55eade804e1582caefb9d83bbc5e_118606_480x0_resize_box_3.png 480w, https://blog.cucummmber.cn/p/hugo-%E6%95%99%E7%A8%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/import_hu7d8b55eade804e1582caefb9d83bbc5e_118606_1024x0_resize_box_3.png 1024w"
 loading="lazy"
+class="gallery-image"
+data-flex-grow="197"
+data-flex-basis="473px"
 >&lt;/p>
 &lt;p>2.选择 Deploy with GitHub ，在弹出页面选择你的 blog 所在项目&lt;/p>
 &lt;p>3.点击项目进入配置页面&lt;/p>
-&lt;p>&lt;img src="https://blog.cucummmber.cn/assets%5csetting.png"
+&lt;p>&lt;img src="https://blog.cucummmber.cn/p/hugo-%E6%95%99%E7%A8%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/setting.png"
+width="1386"
+height="846"
+srcset="https://blog.cucummmber.cn/p/hugo-%E6%95%99%E7%A8%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/setting_huf5638cd5c0ff5f8f281c9147077ff8c9_91532_480x0_resize_box_3.png 480w, https://blog.cucummmber.cn/p/hugo-%E6%95%99%E7%A8%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/setting_huf5638cd5c0ff5f8f281c9147077ff8c9_91532_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="setting"
+class="gallery-image"
+data-flex-grow="163"
+data-flex-basis="393px"
 >&lt;/p>
 &lt;p>4.设置 Build command 为 &lt;code>hugo &amp;ndash;minify &amp;ndash;gc&lt;/code> ，设置 Publish directory &lt;code>public&lt;/code> ，点击 Deploy&lt;/p>
-&lt;p>&lt;img src="https://blog.cucummmber.cn/assets%5cdeploy.png"
+&lt;p>&lt;img src="https://blog.cucummmber.cn/p/hugo-%E6%95%99%E7%A8%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/deploy.png"
+width="1322"
+height="957"
+srcset="https://blog.cucummmber.cn/p/hugo-%E6%95%99%E7%A8%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/deploy_hud598a85fdf7e0538ac16b878ccfd109e_83113_480x0_resize_box_3.png 480w, https://blog.cucummmber.cn/p/hugo-%E6%95%99%E7%A8%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2stack-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/deploy_hud598a85fdf7e0538ac16b878ccfd109e_83113_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="deploy"
+class="gallery-image"
+data-flex-grow="138"
+data-flex-basis="331px"
 >&lt;/p>
 &lt;p>之后 github 接收到 push 这边会同时自动部署。部署成功后可根据需要自定义为自己的域名，并在域名提供商设置里，将自己的域名同时解析到 Netlify 和 Github pages。&lt;/p></description></item></channel></rss>

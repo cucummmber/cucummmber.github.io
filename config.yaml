@@ -11,7 +11,7 @@ languages:
         description: 
         weight: 1
     zh-cn:
-        languageName: 中文
+        languageName: 中文简体 
         title: cucummmber
         description: 
         weight: 2
@@ -28,6 +28,10 @@ disqusShortname: hugo-theme-stack
 # GA Tracking ID
 googleAnalytics: G-EKEVP58FEP
 
+sitemap:
+    changefreq: weekly
+    filename: sitemap.xml
+    priority: 0.5
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
 DefaultContentLanguage: zh-cn
@@ -57,7 +61,7 @@ params:
 
     sidebar:
         compact: false
-        emoji: 😳
+        emoji: 🎶
         subtitle: a...
         avatar:
             enabled: true
@@ -183,7 +187,7 @@ params:
         toggle: true
 
         # Available values: auto, light, dark
-        default: auto
+        default: dark
 
     imageProcessing:
         cover:

@@ -8,7 +8,7 @@ categories:
 tags:
  - Minecraft
  - 游戏
-images:
+image: minecraft.jpg
 ---
 
 Summary.

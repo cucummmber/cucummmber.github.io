@@ -172,7 +172,7 @@ hugo new post/my-first-post/index.md
 hugo server --buildDrafts
 ```
 
-![](assets\effect.png)
+![](assets/effect.png)
 
 重新打开文件，将 <code>draft: true</code> 改为 <code>draft: false</code> ，保存并再次启动服务。
 
@@ -290,7 +290,7 @@ GITHUB_TOKEN 为 Actions  工作时自动创建的一个变量，如果希望 Wo
 
 在此设置 Workflow 权限，你的仓库 -> Settings -> Actions -> General , 滑动到页面最下方 ，将 Workflow permissions 设置为 Read and write permission 。
 
-![](assets\github.png)
+![](assets/github.png)
 
 
 
@@ -312,7 +312,7 @@ git push origin gh-pages	#将分支推送到远程仓库
 
 网页打开你的仓库，选择 Settings -> Pages 将 Build and deployment 项设置为 Deploy from branch ，并选择 gh-pages 分支，不然第一次部署无法成功。
 
-![image-20230701202951748](assets\image-20230701202951748-1688217222554-1.png)
+![image-20230701202951748](assets/image-20230701202951748-1688217222554-1.png)
 
 
 
@@ -363,7 +363,7 @@ git push -u origin master
 hugo server
 ```
 
-![](assets\utterances.png)
+![](assets/utterances.png)
 
 4.推送
 
@@ -387,7 +387,7 @@ Github 因为众所周知的原因，在国内访问很慢，甚至无法访问�
 
 1.选择 Sites - > Add new site ->  import an existing project ，从现存项目导入
 
-![](assets\import.png)
+![](assets/import.png)
 
 2.选择 Deploy with GitHub ，在弹出页面选择你的 blog 所在项目
 
@@ -395,12 +395,12 @@ Github 因为众所周知的原因，在国内访问很慢，甚至无法访问�
 
 3.点击项目进入配置页面
 
-![setting](assets\setting.png)
+![setting](assets/setting.png)
 
 
 
 4.设置 Build command 为 <code>hugo --minify --gc</code> ，设置 Publish directory <code>public</code> ，点击 Deploy
 
-![deploy](assets\deploy.png)
+![deploy](assets/deploy.png)
 
 之后 github 接收到 push 这边会同时自动部署。部署成功后可根据需要自定义为自己的域名，并在域名提供商设置里，将自己的域名同时解析到 Netlify 和 Github pages。
